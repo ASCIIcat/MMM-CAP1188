@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/ASCIIcat/MMM-CAP1188.svg?branch=master)](https://travis-ci.org/ASCIIcat/MMM-CAP1188)
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/ASCIIcat/MMM-CAP1188)
+[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/Status-Still%20in%20Development-orange.svg)
+
 
 # Magic Mirror Module: CAP1188
 
