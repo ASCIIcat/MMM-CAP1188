@@ -1,4 +1,6 @@
-[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/status-Semi--Working-green.svg) ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)
+[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/status-Semi--Working-green.svg) ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg) ![Ported with coffee](https://img.shields.io/badge/Ported%20with-a%20lot%20of%20%E2%98%95-lightgrey.svg)
+
+
 
 
 # Magic Mirror Module: CAP1188
@@ -99,23 +101,3 @@ Each notification configuration is an object with the following properties:
 | `notification` | Notification name. |
 | `payload` | Notification payload. Can be anything, for example a `string` or an `object`. |
 | `title`, `message`, and `imageFA` | *Optional (only for long press notifications):* If you want to display a message before executing set its options here. See [Alert documentation](https://github.com/MichMich/MagicMirror/tree/master/modules/default/alert#alert-params) for their meaning. |
-
-## License
-
-### The MIT License (MIT)
-
-Copyright © 2018 ASCIIcat, (CAP1188 version), Patrice Godard (MPR121 version), Joseph Bethge (GPIO version)
-
-Permission is hereby granted, free of charge, to any person
-obtaining a copy of this software and associated documentation
-files (the “Software”), to deal in the Software without
-restriction, including without limitation the rights to use,
-copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the
-Software is furnished to do so, subject to the following
-conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-**The software is provided “as is”, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.**
