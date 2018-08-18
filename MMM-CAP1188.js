@@ -15,13 +15,14 @@ Module.register("MMM-CAP1188", {
     defaults: {
         buttons: [],
         minShortPressTime: 0,
-        maxShortPressTime: 500,
-        minLongPressTime: 1500
+        maxShortPressTime: 1500,
+        minLongPressTime: 3000
     },
 
     // Define start sequence.
     start: function() {
         Log.info("Starting module: " + this.name);
+        this.sendSocketNotification("hello");
 
         this.sendConfig();
 

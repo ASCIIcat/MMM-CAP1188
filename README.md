@@ -1,4 +1,4 @@
-[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/Status-Still%20in%20Development-orange.svg)
+[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/Status-Semi--Working-green.svg)
 
 
 # Magic Mirror Module: CAP1188
@@ -19,7 +19,7 @@ For example this can be used to send notifications to the following modules:
 Clone this repository in your `modules` folder, and install dependencies:
 ```bash
 cd ~/MagicMirror/modules # adapt directory if you are using a different one
-git https://github.com/ASCIIcat/MMM-CAP1188.git
+git clone https://github.com/ASCIIcat/MMM-CAP1188.git
 cd MMM-CAP1188
 npm install
 ```

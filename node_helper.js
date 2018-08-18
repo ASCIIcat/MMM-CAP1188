@@ -14,7 +14,6 @@ module.exports = NodeHelper.create({
     // Subclass start method.
     start: function() {
         var self = this;
-
         console.log("Starting node helper for: " + self.name);
 
         this.loaded = false;
@@ -22,6 +21,7 @@ module.exports = NodeHelper.create({
 
     // Subclass socketNotificationReceived received.
     socketNotificationReceived: function(notification, payload) {
+      console.log(notification);
         if (notification === 'BUTTON_CONFIG') {
             this.config = payload.config;
 
@@ -31,6 +31,8 @@ module.exports = NodeHelper.create({
 
     //init and setup touch event handlers
     intializeButtons: function() {
+        console.log("intializeButtons");
+
         const self = this;
 
         if (self.loaded) {
@@ -48,33 +50,35 @@ module.exports = NodeHelper.create({
 
         // When it's ready, add a listener that emits
         // when a touch is registered
+        console.log("Begin listening for button press.");
         connectionPromise.then(cap1188 => {
-          // cap1188.on("change", function(evt) {
-          //   console.log(evt);
-          // });
+          console.log("Promise ready.");
+          cap1188.on("change", function(evt) {
+            // console.log(evt);
+          });
 
           // listen for touch events
           cap1188.on("touch", function(pin) {
             console.log("pin touched: ", pin);
+            // console.log(self.buttons[pin]);
 
-            this.buttons[index].pressed = new Date().getTime();
-            this.sendSocketNotification("BUTTON_DOWN", {
-     		         index: index
+            self.buttons[pin].pressed = new Date().getTime();
+            self.sendSocketNotification("BUTTON_DOWN", {
+     		         index: pin
               });
           });
 
           // listen for release events
           cap1188.on("release", function(pin) {
             console.log("pin released: ", pin);
-
-            var start = self.buttons[index].pressed;
+            // console.log(self.buttons[pin]);
+            var start = self.buttons[pin].pressed;
             var end = new Date().getTime();
             var time = end - start;
 
-            self.buttons[index].pressed = undefined;
-
-             self.sendSocketNotification("BUTTON_UP", {
-                index: index,
+            self.buttons[pin].pressed = undefined;
+            self.sendSocketNotification("BUTTON_UP", {
+                index: pin,
                 duration: time
             });
           });
@@ -87,7 +91,7 @@ module.exports = NodeHelper.create({
             console.log("reset");
           });
 
-          cap1188.reset();
+          // cap1188.reset();
         }, console.error);
 
      }
