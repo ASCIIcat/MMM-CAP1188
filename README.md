@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/ASCIIcat/MMM-CAP1188.svg?branch=master)](https://travis-ci.org/ASCIIcat/MMM-CAP1188)
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)](https://github.com/ASCIIcat/MMM-CAP1188)
+
 # Magic Mirror Module: CAP1188
 
 This a module for [Magic Mirror²](https://github.com/MichMich/MagicMirror) to act based on touch (capacitive) buttons via the CAP1188 touch-button controller.
