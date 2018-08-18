@@ -1,5 +1,5 @@
-[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/status-Semi--Working-green.svg) ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg) ![Ported with coffee](https://img.shields.io/badge/Ported%20with-a%20lot%20of%20%E2%98%95-lightgrey.svg)
-
+[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/status-Semi--Working-green.svg) ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg) [![GitHub license](https://img.shields.io/github/license/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/blob/master/LICENSE.md)
+[![dependencies Status](https://david-dm.org/ASCIIcat/MMM-CAP1188/status.svg)](https://david-dm.org/ASCIIcat/MMM-CAP1188) [![devDependencies Status](https://david-dm.org/ASCIIcat/MMM-CAP1188/dev-status.svg)](https://david-dm.org/ASCIIcat/MMM-CAP1188?type=dev) ![Ported with coffee](https://img.shields.io/badge/Ported%20with-a%20lot%20of%20%E2%98%95-lightgrey.svg)
 
 
 
