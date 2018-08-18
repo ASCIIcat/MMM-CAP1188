@@ -3,9 +3,9 @@
 
 # Magic Mirror Module: CAP1188
 
-This a module for [Magic Mirror²](https://github.com/MichMich/MagicMirror) to act based on touch (capacitive) buttons via the CAP1188 touch-button controller.
+This a module for [Magic Mirror²](https://github.com/MichMich/MagicMirror) to act based on touch (capacitive) buttons via the [CAP1188](https://www.adafruit.com/products/1602) touch-button controller.
 It is capable of connecting up to 8 buttons, which can be individually configured.
-This module is forked from the module for the MPR121 [MMM-MPR121](https://github.com/PatriceG/MMM-MPR121) which is based on the awesome [MMM-Buttons module] (https://github.com/Jopyth/MMM-Buttons)
+This module is forked from the module for the MPR121 [MMM-MPR121](https://github.com/PatriceG/MMM-MPR121) which is based on the awesome [MMM-Buttons module](https://github.com/Jopyth/MMM-Buttons)
 
 This module sends out notifications to other modules.
 

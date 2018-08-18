@@ -1,6 +1,6 @@
 {
   "name": "Magic-Mirror-Module-CAP1188",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A module for connecting a CAP1188 touch controller.",
   "repository": {
     "type": "git",

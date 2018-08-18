@@ -1,13 +1,13 @@
 /* global Module */
 
 /* Magic Mirror
- * Module: MMM-MPR121
+ * Module: MMM-CAP1188
  *
- * By Patrice Godard & Joseph Bethge
+ * By ASCIIcat, Patrice Godard & Joseph Bethge
  * MIT Licensed.
  */
 
-Module.register("MMM-MPR121", {
+Module.register("MMM-CAP1188", {
 
     requiresVersion: "2.1.0",
 
@@ -48,7 +48,7 @@ Module.register("MMM-MPR121", {
         this.sendSocketNotification("BUTTON_CONFIG", {
             config: this.config
         });
-    }, 
+    },
 
     buttonUp: function(index, duration) {
         if (this.alerts[index]) {
