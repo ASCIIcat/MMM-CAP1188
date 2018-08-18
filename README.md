@@ -1,4 +1,4 @@
-[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/Status-Semi--Working-green.svg)
+[![GitHub issues](https://img.shields.io/github/issues/ASCIIcat/MMM-CAP1188.svg)](https://github.com/ASCIIcat/MMM-CAP1188/issues) ![Status](https://img.shields.io/badge/status-Semi--Working-green.svg) ![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)
 
 
 # Magic Mirror Module: CAP1188
