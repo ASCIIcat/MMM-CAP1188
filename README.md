@@ -1,8 +1,8 @@
-# Magic Mirror Module: MPR121 
+# Magic Mirror Module: CAP1188
 
-This a module for [Magic Mirror²](https://github.com/MichMich/MagicMirror) to act based on touch (capacitive) buttons via the MPR121 touch-button controller.
-It is capable of connecting up to 12 buttons, which can be individually configured.
-This module is heavily based on the awesome [MMM-Buttons module] (https://github.com/Jopyth/MMM-Buttons)
+This a module for [Magic Mirror²](https://github.com/MichMich/MagicMirror) to act based on touch (capacitive) buttons via the CAP1188 touch-button controller.
+It is capable of connecting up to 8 buttons, which can be individually configured.
+This module is forked from the module for the MPR121 [MMM-MPR121](https://github.com/PatriceG/MMM-MPR121) which is based on the awesome [MMM-Buttons module] (https://github.com/Jopyth/MMM-Buttons)
 
 This module sends out notifications to other modules.
 
@@ -16,8 +16,8 @@ For example this can be used to send notifications to the following modules:
 Clone this repository in your `modules` folder, and install dependencies:
 ```bash
 cd ~/MagicMirror/modules # adapt directory if you are using a different one
-git clone https://github.com/PatriceG/MMM-MPR121.git
-cd MMM-MPR121
+git https://github.com/ASCIIcat/MMM-CAP1188.git
+cd MMM-CAP1188
 npm install
 ```
 **Note:** On some installations you may need to use this command instead:
@@ -29,12 +29,12 @@ npm install --unsafe-perm
 
 Add the module to your modules array in your `config.js`.
 
-Below is a simple example (needs [Remote Control](https://forum.magicmirror.builders/topic/735/remote-control-shutdown-configure-and-update-your-magicmirror) installed), with two touch-buttons (electrodes) conneted, on inputs 0 and 1 of the MPR121.
+Below is a simple example (needs [Remote Control](https://forum.magicmirror.builders/topic/735/remote-control-shutdown-configure-and-update-your-magicmirror) installed), with two touch-buttons (electrodes) conneted, on inputs 0 and 1 of the CAP1188.
 One switches on the display on a short touch, and switches it off on a long touch.
 The other does not do anything on a short touch, but shuts down the system after keeping it touched for 3 seconds with an explanatory user alert.
 ```
 {
-    module: 'MMM-MPR121',
+    module: 'MMM-CAP1188',
     config: {
         buttons: [
             {
@@ -101,7 +101,7 @@ Each notification configuration is an object with the following properties:
 
 ### The MIT License (MIT)
 
-Copyright © 2016 Patrice Godard (MPR121 version), Joseph Bethge (GPIO version)
+Copyright © 2018 ASCIIcat, (CAP1188 version), Patrice Godard (MPR121 version), Joseph Bethge (GPIO version)
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation

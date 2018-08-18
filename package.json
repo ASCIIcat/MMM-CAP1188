@@ -1,10 +1,10 @@
 {
-  "name": "Magic-Mirror-Module-MPR121",
+  "name": "Magic-Mirror-Module-CAP1188",
   "version": "1.0.0",
-  "description": "A module for connecting a MPR121 touch controller.",
+  "description": "A module for connecting a CAP1188 touch controller.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PatriceG/MMM-MPR121"
+    "url": "git+https://github.com/ASCIIcat/MMM-CAP1188"
   },
   "keywords": [
     "magic mirror",
@@ -13,18 +13,18 @@
     "touch",
     "module"
   ],
-  "author": "Patrice Godard",
-  "contributors": "git+https://github.com/PatriceG/MMM-MPR121/graphs/contributors",
+  "author": "ASCIIcat",
+  "contributors": "git+https://github.com/ASCIIcat/MMM-CAP1188/graphs/contributors",
   "license": "MIT",
   "bugs": {
-    "url": "git+https://github.com/PatriceG/MMM-MPR121/issues"
+    "url": "git+https://github.com/ASCIIcat/MMM-CAP1188/issues"
   },
-  "homepage": "git+https://github.com/PatriceG/MMM-MPR121#readme",
+  "homepage": "git+https://github.com/ASCIIcat/MMM-CAP1188#readme",
   "scripts": {
     "postinstall": "node_modules/.bin/electron-rebuild -e ../../node_modules/electron"
   },
   "dependencies": {
-    "adafruit-mpr121":"latest"
+    "raspi-cap":"latest"
   },
   "devDependencies": {
     "electron-rebuild": "^1.2.1"
